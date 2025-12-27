@@ -1,0 +1,140 @@
+{
+  "App": {
+    "name": "couple",
+    "version": "1.0.29"
+  },
+  "documents": {
+    "Builder:Page Builder": {
+      "app": "loopar"
+    },
+    "Entity:Module": {
+      "app": "loopar"
+    },
+    "Entity:App": {
+      "app": "loopar"
+    },
+    "App:couple": {
+      "__document_status__": "Active",
+      "id": 73,
+      "deleted_at": "2025-12-26 21:59:21",
+      "type": "Web App",
+      "name": "couple",
+      "description": "Couple Hard Woods Floor",
+      "version": "1.0.29",
+      "autor": "alfredrz2012@gmail.com",
+      "icon": "Hammer",
+      "logo": "[{\"name\":\"apple-touch-icon_tmccvb.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/apple-touch-icon_tmccvb.png\"}]",
+      "logo_dark": "[{\"name\":\"apple-touch-icon_tmccvb.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/apple-touch-icon_tmccvb.png\"}]",
+      "logo_mini": "[{\"name\":\"apple-touch-icon_tmccvb.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/apple-touch-icon_tmccvb.png\"}]",
+      "logo_mini_dark": "[{\"name\":\"apple-touch-icon_tmccvb.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/apple-touch-icon_tmccvb.png\"}]",
+      "favicon": "",
+      "has_footer": 1,
+      "footer": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 20px; color: inherit; gap: 30px;\">\r\n\r\n<div style=\"flex: 1; min-width: 280px;\">\r\n\r\n### 🏠 Coople Hardwood Floors\r\n\r\nWe transform spaces with the highest quality hardwood flooring. Over 15 years of experience in professional installation, repair, and finishing.\r\n\r\n📍 **Location:** Boston, MA  \r\n📞 **Phone:** (857)-253-1930  \r\n✉️ **Email:** couple.ramirez@yahoo.com\r\n\r\n**Business Hours:**  \r\nMon - Sat 8:00 AM - 4:00 PM\r\n\r\n</div>\r\n\r\n<div style=\"flex: 1; min-width: 280px;\">\r\n\r\n### 🔨 Our Services\r\n\r\n- Solid hardwood floor installation\r\n- Engineered & laminate flooring\r\n- Sanding & refinishing\r\n- Repair & restoration\r\n- Custom finishes & staining\r\n- Free estimates\r\n\r\n</div>\r\n\r\n</div>",
+      "has_copyright": 1,
+      "copyright": "<div style=\"text-align: center; padding: 20px; border-top: 1px solid rgba(128,128,128,0.3); color: inherit; font-size: 0.9em;\">\r\n\r\n© 2025 **Coople Hardwood Floors**. All rights reserved. | Licensed & insured in Massachusetts\r\n\r\n<span style=\"opacity: 0.6; font-size: 0.85em;\">Powered by <a href=\"https://loopar.build\" target=\"_blank\" style=\"color: inherit;\">Loopar</a></span>\r\n\r\n</div>",
+      "fixed": 1,
+      "rounded": "full",
+      "solid": 1,
+      "opacity": "",
+      "menu_items": [
+        {
+          "parent_id": "73",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 28,
+          "name": "cfLiHaE3y3gJ8tF",
+          "page": "Couple Home",
+          "link": "Home",
+          "parent_menu": "",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "null"
+        },
+        {
+          "parent_id": "73",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 29,
+          "name": "y60NxfQcb8jUJnS",
+          "page": "Couple About",
+          "link": "About",
+          "parent_menu": "",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-12-26 21:59:21"
+        },
+        {
+          "parent_id": "73",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 30,
+          "name": "MGYLFX11NwH679o",
+          "page": "Couple Services",
+          "link": "Services",
+          "parent_menu": "",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "null"
+        },
+        {
+          "parent_id": "73",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 31,
+          "name": "jX63860ySu74CF1",
+          "page": "Couple Contact",
+          "link": "Contact",
+          "parent_menu": "",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-12-26 21:59:21"
+        }
+      ],
+      "menu_actions": [],
+      "github_pass": ""
+    },
+    "Entity:Module Group": {
+      "app": "loopar"
+    },
+    "Module Group:modules": {
+      "__document_status__": "Active",
+      "id": 6,
+      "name": "modules",
+      "description": "Modules",
+      "in_sidebar": 1,
+      "deleted_at": "2025-12-26 21:59:21"
+    },
+    "Module:couple": {
+      "__document_status__": "Active",
+      "id": 75,
+      "name": "couple",
+      "description": "couple",
+      "app_name": "couple",
+      "module_group": "modules",
+      "icon": "Hammer",
+      "in_sidebar": 1,
+      "deleted_at": "2025-12-19 20:52:35"
+    },
+    "Page Builder:Couple Home": {
+      "root": "/apps/couple/modules/couple/pages/couple-home"
+    },
+    "Entity:Menu Item": {
+      "app": "loopar"
+    },
+    "Entity:Menu Action": {
+      "app": "loopar"
+    },
+    "Page Builder:Couple About": {
+      "root": "/apps/couple/modules/couple/pages/couple-about"
+    },
+    "Page Builder:Couple Services": {
+      "root": "/apps/couple/modules/couple/pages/couple-services"
+    },
+    "Page Builder:Couple Contact": {
+      "root": "/apps/couple/modules/couple/pages/couple-contact"
+    }
+  },
+  "postInstaller": {
+    "App:couple": "link"
+  }
+}
