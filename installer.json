@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.0.33"
+    "version": "1.0.35"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -16,18 +16,18 @@
     "App:couple": {
       "__document_status__": "Active",
       "id": 73,
-      "deleted_at": "2025-12-28 22:12:54",
+      "deleted_at": null,
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.0.33",
+      "version": "1.0.35",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
-      "logo": "[{\"name\":\"apple-touch-icon_tmccvb.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/apple-touch-icon_tmccvb.png\"}]",
-      "logo_dark": "[{\"name\":\"apple-touch-icon_tmccvb.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/apple-touch-icon_tmccvb.png\"}]",
-      "logo_mini": "[{\"name\":\"apple-touch-icon_tmccvb.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/apple-touch-icon_tmccvb.png\"}]",
-      "logo_mini_dark": "[{\"name\":\"apple-touch-icon_tmccvb.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/apple-touch-icon_tmccvb.png\"}]",
-      "favicon": "",
+      "logo": "[{\"name\":\"logo-dark-mob_lnskwk.png\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011783/logo-dark-mob_lnskwk.png\"}]",
+      "logo_dark": "[{\"name\":\"logo-dark_frxxqg.png\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011777/logo-dark_frxxqg.png\"}]",
+      "logo_mini": "[{\"name\":\"logo-dark-mob_lnskwk.png\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011783/logo-dark-mob_lnskwk.png\"}]",
+      "logo_mini_dark": "[{\"name\":\"logo-dark_frxxqg.png\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011777/logo-dark_frxxqg.png\"}]",
+      "favicon": "[{\"name\":\"favicon_ghpito.ico\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/favicon_ghpito.ico\"}]",
       "has_footer": 1,
       "footer": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 20px; color: inherit; gap: 30px;\">\r\n\r\n<div style=\"flex: 1; min-width: 280px;\">\r\n\r\n### 🏠 Coople Hardwood Floors\r\n\r\nWe transform spaces with the highest quality hardwood flooring. Over 15 years of experience in professional installation, repair, and finishing.\r\n\r\n📍 **Location:** Boston, MA  \r\n📞 **Phone:** (857)-253-1930  \r\n✉️ **Email:** couple.ramirez@yahoo.com\r\n\r\n**Business Hours:**  \r\nMon - Sat 8:00 AM - 4:00 PM\r\n\r\n</div>\r\n\r\n<div style=\"flex: 1; min-width: 280px;\">\r\n\r\n### 🔨 Our Services\r\n\r\n- Solid hardwood floor installation\r\n- Engineered & laminate flooring\r\n- Sanding & refinishing\r\n- Repair & restoration\r\n- Custom finishes & staining\r\n- Free estimates\r\n\r\n</div>\r\n\r\n</div>",
       "has_copyright": 1,
@@ -41,53 +41,53 @@
           "parent_id": "73",
           "parent_document": "App",
           "__document_status__": "Active",
-          "id": 28,
-          "name": "cfLiHaE3y3gJ8tF",
+          "id": 48,
+          "name": "I4iyNQx1S8vwblt",
           "page": "Couple Home",
           "link": "Home",
           "parent_menu": "",
           "document_parent": "null",
           "document_parent_name": "null",
-          "deleted_at": "null"
+          "deleted_at": "2025-12-29 07:40:37"
         },
         {
           "parent_id": "73",
           "parent_document": "App",
           "__document_status__": "Active",
-          "id": 29,
-          "name": "y60NxfQcb8jUJnS",
+          "id": 49,
+          "name": "gl0eVCS0r7tkJYL",
           "page": "Couple About",
           "link": "About",
           "parent_menu": "",
           "document_parent": "null",
           "document_parent_name": "null",
-          "deleted_at": "2025-12-26 21:59:21"
-        },
-        {
-          "parent_id": "73",
-          "parent_document": "App",
-          "__document_status__": "Active",
-          "id": 30,
-          "name": "MGYLFX11NwH679o",
-          "page": "Couple Services",
-          "link": "Services",
-          "parent_menu": "",
-          "document_parent": "null",
-          "document_parent_name": "null",
           "deleted_at": "null"
         },
         {
           "parent_id": "73",
           "parent_document": "App",
           "__document_status__": "Active",
-          "id": 31,
-          "name": "jX63860ySu74CF1",
+          "id": 50,
+          "name": "un7HN9fqur1Yt7T",
+          "page": "Couple Services",
+          "link": "Services",
+          "parent_menu": "",
+          "document_parent": "null",
+          "document_parent_name": "null",
+          "deleted_at": "2025-12-29 07:40:37"
+        },
+        {
+          "parent_id": "73",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 51,
+          "name": "y0Ss0Wp9ZDyC5GM",
           "page": "Couple Contact",
           "link": "Contact",
           "parent_menu": "",
           "document_parent": "null",
           "document_parent_name": "null",
-          "deleted_at": "2025-12-26 21:59:21"
+          "deleted_at": "null"
         }
       ],
       "menu_actions": [],
@@ -102,7 +102,7 @@
       "name": "modules",
       "description": "Modules",
       "in_sidebar": 1,
-      "deleted_at": "2025-12-28 22:12:54"
+      "deleted_at": "2025-12-29 07:41:35"
     },
     "Module:couple": {
       "__document_status__": "Active",
