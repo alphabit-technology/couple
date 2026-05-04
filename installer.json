@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.0.35"
+    "version": "1.1.0"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -20,18 +20,24 @@
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.0.35",
+      "version": "1.1.0",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
-      "logo": "[{\"name\":\"logo-dark-mob_lnskwk.png\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011783/logo-dark-mob_lnskwk.png\"}]",
-      "logo_dark": "[{\"name\":\"logo-dark_frxxqg.png\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011777/logo-dark_frxxqg.png\"}]",
-      "logo_mini": "[{\"name\":\"logo-dark-mob_lnskwk.png\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011783/logo-dark-mob_lnskwk.png\"}]",
-      "logo_mini_dark": "[{\"name\":\"logo-dark_frxxqg.png\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011777/logo-dark_frxxqg.png\"}]",
-      "favicon": "[{\"name\":\"favicon_ghpito.ico\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/favicon_ghpito.ico\"}]",
+      "spacing": "",
+      "footer_height": "",
+      "col_padding": "",
+      "col_margin": "",
+      "logo": "[{\"name\":\"logo-dark-mob_lnskwk.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011783/logo-dark-mob_lnskwk.png\"}]",
+      "logo_dark": "[{\"name\":\"logo-dark_frxxqg.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011777/logo-dark_frxxqg.png\"}]",
+      "logo_mini": "[{\"name\":\"logo-dark-mob_lnskwk.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011783/logo-dark-mob_lnskwk.png\"}]",
+      "logo_mini_dark": "[{\"name\":\"logo-dark_frxxqg.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011777/logo-dark_frxxqg.png\"}]",
+      "favicon": "[{\"name\":\"favicon_ghpito.ico\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1766121375/favicon_ghpito.ico\"}]",
+      "logo_width": "",
+      "logo_height": "",
       "has_footer": 1,
-      "footer": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 20px; color: inherit; gap: 30px;\">\r\n\r\n<div style=\"flex: 1; min-width: 280px;\">\r\n\r\n### 🏠 Coople Hardwood Floors\r\n\r\nWe transform spaces with the highest quality hardwood flooring. Over 15 years of experience in professional installation, repair, and finishing.\r\n\r\n📍 **Location:** Boston, MA  \r\n📞 **Phone:** (857)-253-1930  \r\n✉️ **Email:** couple.ramirez@yahoo.com\r\n\r\n**Business Hours:**  \r\nMon - Sat 8:00 AM - 4:00 PM\r\n\r\n</div>\r\n\r\n<div style=\"flex: 1; min-width: 280px;\">\r\n\r\n### 🔨 Our Services\r\n\r\n- Solid hardwood floor installation\r\n- Engineered & laminate flooring\r\n- Sanding & refinishing\r\n- Repair & restoration\r\n- Custom finishes & staining\r\n- Free estimates\r\n\r\n</div>\r\n\r\n</div>",
+      "footer": "<div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; padding: 40px 20px; color: inherit; gap: 30px;\">\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    ### 🏠 Coople Hardwood Floors\r\n\r\n    We transform spaces with the highest quality hardwood flooring. Over 15 years of experience in professional installation, repair, and finishing.\r\n\r\n    📍 **Location:** Boston, MA\r\n    📞 **Phone:** (857)-253-1930\r\n    ✉️ **Email:** [couple.ramirez@yahoo.com](mailto\\:couple.ramirez@yahoo.com)\r\n\r\n    **Business Hours:**\r\n    Mon - Sat 8:00 AM - 4:00 PM\r\n  </div>\r\n\r\n  <div style=\"flex: 1; min-width: 280px;\">\r\n    ### 🔨 Our Services\r\n\r\n    * Solid hardwood floor installation\r\n    * Engineered & laminate flooring\r\n    * Sanding & refinishing\r\n    * Repair & restoration\r\n    * Custom finishes & staining\r\n    * Free estimates\r\n  </div>\r\n</div>",
       "has_copyright": 1,
-      "copyright": "<div style=\"text-align: center; padding: 20px; border-top: 1px solid rgba(128,128,128,0.3); color: inherit; font-size: 0.9em;\">\r\n\r\n© 2025 **Coople Hardwood Floors**. All rights reserved. | Licensed & insured in Massachusetts\r\n\r\n<span style=\"opacity: 0.6; font-size: 0.85em;\">Powered by <a href=\"https://loopar.build\" target=\"_blank\" style=\"color: inherit;\">Loopar</a></span>\r\n\r\n</div>",
+      "copyright": "<div style=\"text-align: center; padding: 20px; border-top: 1px solid rgba(128,128,128,0.3); color: inherit; font-size: 0.9em;\">\r\n  © 2025 **Coople Hardwood Floors**. All rights reserved. | Licensed & insured in Massachusetts\r\n\r\n  <span style=\"opacity: 0.6; font-size: 0.85em;\">Powered by </span><a href=\"https://loopar.build\" target=\"_blank\" style=\"color: inherit;\">Loopar</a>\r\n</div>",
       "fixed": 1,
       "rounded": "full",
       "solid": 1,
@@ -41,57 +47,92 @@
           "parent_id": "73",
           "parent_document": "App",
           "__document_status__": "Active",
-          "id": 48,
-          "name": "I4iyNQx1S8vwblt",
+          "id": 77,
+          "name": "NfXwa1oM27T7L6C",
           "page": "Couple Home",
           "link": "Home",
           "parent_menu": "",
-          "document_parent": "null",
-          "document_parent_name": "null",
-          "deleted_at": "2025-12-29 07:40:37"
+          "document_parent": null,
+          "document_parent_name": null,
+          "deleted_at": "2026-05-01 22:49:52",
+          "col1_el109499672148": null,
+          "col651_el50020111152": null,
+          "col96_el79149827367": null,
+          "col131_el7446029241": null
         },
         {
           "parent_id": "73",
           "parent_document": "App",
           "__document_status__": "Active",
-          "id": 49,
-          "name": "gl0eVCS0r7tkJYL",
+          "id": 78,
+          "name": "cdnoRLZlq26VUTj",
           "page": "Couple About",
           "link": "About",
           "parent_menu": "",
-          "document_parent": "null",
-          "document_parent_name": "null",
-          "deleted_at": "null"
+          "document_parent": null,
+          "document_parent_name": null,
+          "deleted_at": null,
+          "col1_el109499672148": null,
+          "col651_el50020111152": null,
+          "col96_el79149827367": null,
+          "col131_el7446029241": null
         },
         {
           "parent_id": "73",
           "parent_document": "App",
           "__document_status__": "Active",
-          "id": 50,
-          "name": "un7HN9fqur1Yt7T",
+          "id": 79,
+          "name": "ov1p2hT7G7X2sS0",
           "page": "Couple Services",
           "link": "Services",
           "parent_menu": "",
-          "document_parent": "null",
-          "document_parent_name": "null",
-          "deleted_at": "2025-12-29 07:40:37"
+          "document_parent": null,
+          "document_parent_name": null,
+          "deleted_at": "2026-05-01 22:49:52",
+          "col1_el109499672148": null,
+          "col651_el50020111152": null,
+          "col96_el79149827367": null,
+          "col131_el7446029241": null
         },
         {
           "parent_id": "73",
           "parent_document": "App",
           "__document_status__": "Active",
-          "id": 51,
-          "name": "y0Ss0Wp9ZDyC5GM",
+          "id": 80,
+          "name": "g3I54X7NA7DVw19",
           "page": "Couple Contact",
           "link": "Contact",
           "parent_menu": "",
-          "document_parent": "null",
-          "document_parent_name": "null",
-          "deleted_at": "null"
+          "document_parent": null,
+          "document_parent_name": null,
+          "deleted_at": null,
+          "col1_el109499672148": null,
+          "col651_el50020111152": null,
+          "col96_el79149827367": null,
+          "col131_el7446029241": null
+        },
+        {
+          "parent_id": "73",
+          "parent_document": "App",
+          "__document_status__": "Active",
+          "id": 81,
+          "name": "F7yLSelUH1E3r6X",
+          "page": "Couple Review",
+          "link": "Reviews",
+          "parent_menu": null,
+          "document_parent": null,
+          "document_parent_name": null,
+          "deleted_at": null,
+          "col1_el109499672148": null,
+          "col651_el50020111152": null,
+          "col96_el79149827367": null,
+          "col131_el7446029241": null
         }
       ],
       "menu_actions": [],
-      "github_pass": ""
+      "git_repo": "",
+      "github_pass": "",
+      "info": ""
     },
     "Entity:Module Group": {
       "app": "loopar"
@@ -102,7 +143,7 @@
       "name": "modules",
       "description": "Modules",
       "in_sidebar": 1,
-      "deleted_at": "2025-12-29 07:41:35"
+      "deleted_at": null
     },
     "Module:couple": {
       "__document_status__": "Active",
@@ -113,10 +154,17 @@
       "module_group": "modules",
       "icon": "Hammer",
       "in_sidebar": 1,
-      "deleted_at": "2025-12-19 20:52:35"
+      "deleted_at": "2025-12-19 20:52:35",
+      "col31_el189074530256": null,
+      "col29_el40034406760": null,
+      "col35_el95037988743": null,
+      "col33_el366818886999": null,
+      "col19_el1442829649711": null,
+      "col21_el570469363793": null,
+      "col23_el664361870199": null
     },
-    "Page Builder:Couple Home": {
-      "root": "/apps/couple/modules/couple/pages/couple-home"
+    "Page Builder:Couple About": {
+      "root": "/apps/couple/modules/couple/pages/couple-about"
     },
     "Entity:Menu Item": {
       "app": "loopar"
@@ -124,14 +172,17 @@
     "Entity:Menu Action": {
       "app": "loopar"
     },
-    "Page Builder:Couple About": {
-      "root": "/apps/couple/modules/couple/pages/couple-about"
+    "Page Builder:Couple Home": {
+      "root": "/apps/couple/modules/couple/pages/couple-home"
     },
     "Page Builder:Couple Services": {
       "root": "/apps/couple/modules/couple/pages/couple-services"
     },
     "Page Builder:Couple Contact": {
       "root": "/apps/couple/modules/couple/pages/couple-contact"
+    },
+    "Page Builder:Couple Review": {
+      "root": "/apps/couple/modules/couple/pages/couple-review"
     }
   },
   "postInstaller": {
