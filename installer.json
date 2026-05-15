@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.1.8"
+    "version": "1.1.43"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,7 +17,7 @@
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.1.8",
+      "version": "1.1.43",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
       "footer_height": "",
@@ -34,6 +34,7 @@
       "has_copyright": 1,
       "copyright": "<div style=\"text-align: center; padding: 20px; border-top: 1px solid rgba(128,128,128,0.3); color: inherit; font-size: 0.9em;\">\r\n  © 2025 **Coople Hardwood Floors**. All rights reserved. | Licensed & insured in Massachusetts\r\n\r\n  <span style=\"opacity: 0.6; font-size: 0.85em;\">Powered by </span><a href=\"https://loopar.build\" target=\"_blank\" style=\"color: inherit;\">Loopar</a>\r\n</div>",
       "fixed": 1,
+      "logo_position": "left",
       "rounded": "full",
       "solid": 1,
       "opacity": "",
@@ -41,7 +42,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "yS5efpjL9B8x552",
+          "name": "CkZ85H8jiTVhN0w",
           "page": "Couple Home",
           "link": "Home",
           "parent_menu": null,
@@ -52,7 +53,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "j2eYd7Ecj8IAMZl",
+          "name": "QGwB6EjN87I0CSU",
           "page": "Couple About",
           "link": "About",
           "parent_menu": null,
@@ -63,7 +64,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "JlcA987yJKZk15H",
+          "name": "x40wGI6qVTE9xOQ",
           "page": "Couple Services",
           "link": "Services",
           "parent_menu": null,
@@ -74,7 +75,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "f8M1WrKj64NlwQE",
+          "name": "HV7s38Abq8ydIPU",
           "page": "Couple Contact",
           "link": "Contact",
           "parent_menu": null,
@@ -85,7 +86,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "wfw9RnZe5dALsl1",
+          "name": "obDnjW5m2KT0ZSs",
           "page": "Couple Review",
           "link": "Reviews",
           "parent_menu": null,
@@ -122,17 +123,17 @@
     "Entity:Menu Action": {
       "__app__": "loopar"
     },
+    "Page Builder:Couple Home": {
+      "__root__": "/apps/couple/modules/couple/pages/couple-home"
+    },
+    "Page Builder:Couple Review": {
+      "__root__": "/apps/couple/modules/couple/pages/couple-review"
+    },
     "Page Builder:Couple Services": {
       "__root__": "/apps/couple/modules/couple/pages/couple-services"
     },
     "Page Builder:Couple Contact": {
       "__root__": "/apps/couple/modules/couple/pages/couple-contact"
-    },
-    "Page Builder:Couple Review": {
-      "__root__": "/apps/couple/modules/couple/pages/couple-review"
-    },
-    "Page Builder:Couple Home": {
-      "__root__": "/apps/couple/modules/couple/pages/couple-home"
     }
   },
   "postInstaller": {
