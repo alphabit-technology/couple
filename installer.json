@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.1.43"
+    "version": "1.1.45"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,7 +17,7 @@
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.1.43",
+      "version": "1.1.45",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
       "footer_height": "",
@@ -42,7 +42,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "CkZ85H8jiTVhN0w",
+          "name": "o1KIk95p9U7Fri7",
           "page": "Couple Home",
           "link": "Home",
           "parent_menu": null,
@@ -53,7 +53,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "QGwB6EjN87I0CSU",
+          "name": "lx5s2L79yJwaIb9",
           "page": "Couple About",
           "link": "About",
           "parent_menu": null,
@@ -64,7 +64,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "x40wGI6qVTE9xOQ",
+          "name": "SGl915L9d8fHmEa",
           "page": "Couple Services",
           "link": "Services",
           "parent_menu": null,
@@ -75,7 +75,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "HV7s38Abq8ydIPU",
+          "name": "rVcL6798711lt1g",
           "page": "Couple Contact",
           "link": "Contact",
           "parent_menu": null,
@@ -86,7 +86,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "obDnjW5m2KT0ZSs",
+          "name": "u1bcAde89KLfvxy",
           "page": "Couple Review",
           "link": "Reviews",
           "parent_menu": null,
