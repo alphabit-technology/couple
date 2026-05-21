@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.1.79"
+    "version": "1.1.80"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,7 +17,7 @@
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.1.79",
+      "version": "1.1.80",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
       "footer_height": "",
