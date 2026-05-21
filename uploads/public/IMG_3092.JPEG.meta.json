@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "IMG_3092.JPEG",
+  "type": "image",
+  "extention": "jpeg",
+  "size": 653189,
+  "storage_driver": "cloudinary",
+  "external_id": "loopar/couple/couple/public/IMG_3092_l6nkan",
+  "external_url": "https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg",
+  "src": "https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg",
+  "previewSrc": "https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg",
+  "app": "couple",
+  "visibility": "public",
+  "updated_at": "2026-05-21T01:14:21.182Z"
+}

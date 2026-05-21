@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.1.45"
+    "version": "1.1.78"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,7 +17,7 @@
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.1.45",
+      "version": "1.1.78",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
       "footer_height": "",
@@ -42,7 +42,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "o1KIk95p9U7Fri7",
+          "name": "j15BrUT2RqOWyQ7",
           "page": "Couple Home",
           "link": "Home",
           "parent_menu": null,
@@ -53,7 +53,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "lx5s2L79yJwaIb9",
+          "name": "w19gyilA6Uq9M17",
           "page": "Couple About",
           "link": "About",
           "parent_menu": null,
@@ -64,7 +64,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "SGl915L9d8fHmEa",
+          "name": "QY3fsPu18U7hDQr",
           "page": "Couple Services",
           "link": "Services",
           "parent_menu": null,
@@ -75,7 +75,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "rVcL6798711lt1g",
+          "name": "OPk03v5TB6I8K7f",
           "page": "Couple Contact",
           "link": "Contact",
           "parent_menu": null,
@@ -86,7 +86,18 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "u1bcAde89KLfvxy",
+          "name": "Y134bchm977tIZx",
+          "page": "Couple Project",
+          "link": "Projects",
+          "parent_menu": null,
+          "document_parent": null,
+          "document_parent_name": null,
+          "deleted_at": null
+        },
+        {
+          "parent_document": "App",
+          "__document_status__": "'Active'",
+          "name": "sCSxBO5ZG7LJbHN",
           "page": "Couple Review",
           "link": "Reviews",
           "parent_menu": null,
@@ -126,6 +137,9 @@
     "Page Builder:Couple Home": {
       "__root__": "/apps/couple/modules/couple/pages/couple-home"
     },
+    "Page Builder:Couple Project": {
+      "__root__": "/apps/couple/modules/couple/pages/couple-project"
+    },
     "Page Builder:Couple Review": {
       "__root__": "/apps/couple/modules/couple/pages/couple-review"
     },
@@ -134,6 +148,225 @@
     },
     "Page Builder:Couple Contact": {
       "__root__": "/apps/couple/modules/couple/pages/couple-contact"
+    },
+    "Entity:Project": {
+      "__app__": "loopar"
+    },
+    "Project:Tatiana Construction": {
+      "name": "Tatiana Construction",
+      "title": "Tatiana Construction",
+      "slug": "tatiana-construction",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "custom_url": "",
+      "summary": "Installation of the entire floor.",
+      "description": "Installation of the entire floor, three-quarters hallway and kitchen, sanding and application of polyurethane.",
+      "cover_image": "[{\"name\":\"IMG_3092.JPEG\",\"size\":653189,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\"}]",
+      "images": "[{\"name\":\"IMG_3092.JPEG\",\"size\":653189,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\"},{\"name\":\"IMG_3094.JPEG\",\"size\":640950,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327536/loopar/couple/couple/public/IMG_3094_xdl7cl.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779327536/loopar/couple/couple/public/IMG_3094_xdl7cl.jpg\"},{\"name\":\"IMG_3095.JPEG\",\"size\":789325,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327536/loopar/couple/couple/public/IMG_3095_yxigl7.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779327536/loopar/couple/couple/public/IMG_3095_yxigl7.jpg\"},{\"name\":\"IMG_3098.JPEG\",\"size\":694760,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327537/loopar/couple/couple/public/IMG_3098_fl5u7c.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779327537/loopar/couple/couple/public/IMG_3098_fl5u7c.jpg\"}]",
+      "start_date": "2026-05-06",
+      "end_date": "2026-05-06",
+      "client": "Tatiana Construction",
+      "external_url": "",
+      "tags": ""
+    },
+    "Entity:Service": {
+      "__app__": "loopar"
+    },
+    "Service:couple-install": {
+      "name": "couple-install",
+      "title": "Install",
+      "slug": "install",
+      "category": "Installation",
+      "app": "couple",
+      "published": 1,
+      "featured": 1,
+      "order": 1,
+      "summary": "Solid hardwood, engineered, and laminate installations from scratch.",
+      "icon": "Hammer",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-refinish": {
+      "name": "couple-refinish",
+      "title": "Refinish",
+      "slug": "refinish",
+      "category": "Refinishing",
+      "app": "couple",
+      "published": 1,
+      "featured": 1,
+      "order": 2,
+      "summary": "Dustless sanding plus 2–3 coats of zero-VOC polyurethane.",
+      "icon": "Sparkles",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-repair": {
+      "name": "couple-repair",
+      "title": "Repair",
+      "slug": "repair",
+      "category": "Repair & Restoration",
+      "app": "couple",
+      "published": 1,
+      "featured": 1,
+      "order": 3,
+      "summary": "Board replacement, gap filling, and water-damage restoration.",
+      "icon": "Wrench",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-stain": {
+      "name": "couple-stain",
+      "title": "Stain",
+      "slug": "stain",
+      "category": "Refinishing",
+      "app": "couple",
+      "published": 1,
+      "featured": 1,
+      "order": 4,
+      "summary": "Custom color-matching from natural through ebony — sampled in your light.",
+      "icon": "Palette",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-solid-hardwood": {
+      "name": "couple-solid-hardwood",
+      "title": "Solid Hardwood",
+      "slug": "solid-hardwood",
+      "category": "Installation",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 5,
+      "summary": "3/4\" white oak, red oak, maple, hickory — site-finished or pre-finished. Proper subfloor moisture testing and expansion gaps for New England humidity swings.",
+      "cover_image": "[{\"name\": \"Solid Hardwood.jpg\", \"type\": \"image\", \"src\": \"https://www.reallycheapfloors.com/media/blog/view-our-products-1050x600.jpg\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-engineered-hardwood": {
+      "name": "couple-engineered-hardwood",
+      "title": "Engineered Hardwood",
+      "slug": "engineered-hardwood",
+      "category": "Installation",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 6,
+      "summary": "Multi-ply construction that handles humidity better. Works below-grade, over concrete, and over radiant heat where solid hardwood can't.",
+      "cover_image": "[{\"name\": \"Engineered Hardwood.jpg\", \"type\": \"image\", \"src\": \"https://lumberliquidators.com/cdn/shop/files/10030007_rs.jpg?v=1766562011&width=1500\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-herringbone-patterns": {
+      "name": "couple-herringbone-patterns",
+      "title": "Herringbone & Patterns",
+      "slug": "herringbone-patterns",
+      "category": "Installation",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 7,
+      "summary": "Classic herringbone, chevron, and parquet layouts. Precise cuts, tight seams, and the patience these floors deserve.",
+      "cover_image": "[{\"name\": \"Herringbone & Patterns.jpg\", \"type\": \"image\", \"src\": \"https://images.unsplash.com/photo-1567016526105-22da7c13161a?auto=format&fit=crop&w=1200&q=80\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-dustless-sanding": {
+      "name": "couple-dustless-sanding",
+      "title": "Dustless Sanding",
+      "slug": "dustless-sanding",
+      "category": "Refinishing",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 8,
+      "summary": "99% dust-capture system that vents directly into a HEPA-filtered vacuum outside. No drop cloths for days, no fine residue settling for weeks.",
+      "cover_image": "[{\"name\": \"Dustless Sanding.jpg\", \"type\": \"image\", \"src\": \"https://www.davesfloorrefinishing.com/wp-content/uploads/2017/05/wood-floor-refinishing-home-Iowa.jpg\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-custom-staining": {
+      "name": "couple-custom-staining",
+      "title": "Custom Staining",
+      "slug": "custom-staining",
+      "category": "Refinishing",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 9,
+      "summary": "Natural, dark walnut, ebony, whitewashed, or a custom color we sample in your room's light. We mix until it's right before any coat goes on.",
+      "cover_image": "[{\"name\": \"Custom Staining.jpg\", \"type\": \"image\", \"src\": \"https://oldetymefloor.com/wp-content/uploads/2023/04/staircases-5.png\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-water-based-oil-based": {
+      "name": "couple-water-based-oil-based",
+      "title": "Water-Based or Oil-Based",
+      "slug": "water-based-oil-based",
+      "category": "Refinishing",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 10,
+      "summary": "Water-based polyurethane (Bona, Loba) for zero-VOC and fast cure. Oil-based on request for that warm amber glow some clients prefer. Two to three coats either way.",
+      "cover_image": "[{\"name\": \"Water-Based or Oil-Based.jpg\", \"type\": \"image\", \"src\": \"https://hudsonvalleyhardwoodflooring.com/wp-content/uploads/sites/81/2025/05/laying-wooden-flooring-with-adhesive.webp\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-board-replacement": {
+      "name": "couple-board-replacement",
+      "title": "Board Replacement",
+      "slug": "board-replacement",
+      "category": "Repair & Restoration",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 11,
+      "summary": "Removing damaged boards and weaving in new ones that blend invisibly — feathered transitions, color-matched stain, seamless final finish.",
+      "cover_image": "[{\"name\": \"Board Replacement.jpg\", \"type\": \"image\", \"src\": \"https://cmchardwoodfloors.com/images/wood-floor-repair-after.jpg\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-water-damage-repair": {
+      "name": "couple-water-damage-repair",
+      "title": "Water Damage Repair",
+      "slug": "water-damage-repair",
+      "category": "Repair & Restoration",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 12,
+      "summary": "Pulling up swollen or cupped boards, drying the subfloor, replacing what can't be saved, then refinishing the section so it disappears into the original.",
+      "cover_image": "[{\"name\": \"Water Damage Repair.jpg\", \"type\": \"image\", \"src\": \"https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=1200&q=80\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
+    },
+    "Service:couple-historic-restoration": {
+      "name": "couple-historic-restoration",
+      "title": "Historic Restoration",
+      "slug": "historic-restoration",
+      "category": "Repair & Restoration",
+      "app": "couple",
+      "published": 1,
+      "featured": 0,
+      "order": 13,
+      "summary": "Wide-plank pine, century-old oak parquet, gap-filling century-old brownstone floors — restoration work that respects the age and value of older homes.",
+      "cover_image": "[{\"name\": \"Historic Restoration.jpg\", \"type\": \"image\", \"src\": \"https://images.squarespace-cdn.com/content/6441ab97f08b166df4dbdaa0/4b5a5d21-dcc0-4c78-814e-8fa0e61b858a/IMG_6526.jpeg?format=1500w&content-type=image%2Fjpeg\"}]",
+      "pricing_model": "hidden",
+      "cta_label": "Get A Free Estimate",
+      "cta_url": "/contact"
     }
   },
   "postInstaller": {
