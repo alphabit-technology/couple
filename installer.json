@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.1.80"
+    "version": "1.1.108"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,7 +17,7 @@
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.1.80",
+      "version": "1.1.108",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
       "footer_height": "",
@@ -36,74 +36,93 @@
       "fixed": 1,
       "logo_position": "left",
       "rounded": "full",
+      "show_user_section": 1,
       "solid": 1,
       "opacity": "",
       "menu_items": [
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "j15BrUT2RqOWyQ7",
+          "name": "cay9DjU3EJbZBXh",
           "page": "Couple Home",
           "link": "Home",
           "parent_menu": null,
           "document_parent": null,
           "document_parent_name": null,
-          "deleted_at": null
+          "deleted_at": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "w19gyilA6Uq9M17",
+          "name": "quLRe66F9fpP6rN",
           "page": "Couple About",
           "link": "About",
           "parent_menu": null,
           "document_parent": null,
           "document_parent_name": null,
-          "deleted_at": null
+          "deleted_at": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "QY3fsPu18U7hDQr",
+          "name": "J3eLhmvwFqRIM60",
           "page": "Couple Services",
           "link": "Services",
           "parent_menu": null,
           "document_parent": null,
           "document_parent_name": null,
-          "deleted_at": null
+          "deleted_at": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "OPk03v5TB6I8K7f",
+          "name": "Y1gTN8muao178X4",
+          "page": "Couple Galery",
+          "link": "Galery",
+          "parent_menu": null,
+          "document_parent": null,
+          "document_parent_name": null,
+          "deleted_at": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "__document_status__": "'Active'",
+          "name": "dkvgKCp9oELa71y",
           "page": "Couple Contact",
           "link": "Contact",
           "parent_menu": null,
           "document_parent": null,
           "document_parent_name": null,
-          "deleted_at": null
+          "deleted_at": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "Y134bchm977tIZx",
+          "name": "NCfL6BFEy4ahT09",
           "page": "Couple Project",
           "link": "Projects",
           "parent_menu": null,
           "document_parent": null,
           "document_parent_name": null,
-          "deleted_at": null
+          "deleted_at": null,
+          "router_only": 0
         },
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "sCSxBO5ZG7LJbHN",
+          "name": "HGQS1e9YhtP175f",
           "page": "Couple Review",
           "link": "Reviews",
           "parent_menu": null,
           "document_parent": null,
           "document_parent_name": null,
-          "deleted_at": null
+          "deleted_at": null,
+          "router_only": 0
         }
       ],
       "menu_actions": [],
@@ -134,6 +153,9 @@
     "Entity:Menu Action": {
       "__app__": "loopar"
     },
+    "Page Builder:Couple Galery": {
+      "__root__": "/apps/couple/modules/couple/pages/couple-galery"
+    },
     "Page Builder:Couple Home": {
       "__root__": "/apps/couple/modules/couple/pages/couple-home"
     },
@@ -152,23 +174,26 @@
     "Entity:Project": {
       "__app__": "loopar"
     },
-    "Project:Tatiana Construction": {
-      "name": "Tatiana Construction",
-      "title": "Tatiana Construction",
-      "slug": "tatiana-construction",
+    "Project:Tatianas Construction": {
+      "name": "Tatianas Construction",
+      "title": "Tatiana's Construction",
+      "slug": "tatianas-construction",
       "app": "couple",
       "published": 1,
       "featured": 0,
       "custom_url": "",
       "summary": "Installation of the entire floor.",
       "description": "Installation of the entire floor, three-quarters hallway and kitchen, sanding and application of polyurethane.",
-      "cover_image": "[{\"name\":\"IMG_3092.JPEG\",\"size\":653189,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\"}]",
-      "images": "[{\"name\":\"IMG_3092.JPEG\",\"size\":653189,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\"},{\"name\":\"IMG_3094.JPEG\",\"size\":640950,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327536/loopar/couple/couple/public/IMG_3094_xdl7cl.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779327536/loopar/couple/couple/public/IMG_3094_xdl7cl.jpg\"},{\"name\":\"IMG_3095.JPEG\",\"size\":789325,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327536/loopar/couple/couple/public/IMG_3095_yxigl7.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779327536/loopar/couple/couple/public/IMG_3095_yxigl7.jpg\"},{\"name\":\"IMG_3098.JPEG\",\"size\":694760,\"type\":\"image/jpeg\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327537/loopar/couple/couple/public/IMG_3098_fl5u7c.jpg\",\"previewSrc\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/c_fill,w_200,h_200,f_auto,q_auto/v1779327537/loopar/couple/couple/public/IMG_3098_fl5u7c.jpg\"}]",
-      "start_date": "2026-05-06",
-      "end_date": "2026-05-06",
+      "cover_image": "[{\"name\":\"IMG_3092.JPEG\",\"size\":653189,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\"}]",
+      "images": "[{\"name\":\"IMG_3092.JPEG\",\"size\":653189,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\"},{\"name\":\"IMG_3094.JPEG\",\"size\":640950,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327536/loopar/couple/couple/public/IMG_3094_xdl7cl.jpg\"},{\"name\":\"IMG_3095.JPEG\",\"size\":789325,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327536/loopar/couple/couple/public/IMG_3095_yxigl7.jpg\"},{\"name\":\"IMG_3098.JPEG\",\"size\":694760,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327537/loopar/couple/couple/public/IMG_3098_fl5u7c.jpg\"}]",
+      "start_date": "2026-05-04",
+      "end_date": "2026-05-04",
       "client": "Tatiana Construction",
       "external_url": "",
       "tags": ""
+    },
+    "Entity:Project Category": {
+      "__app__": "loopar"
     },
     "Entity:Service": {
       "__app__": "loopar"
@@ -187,6 +212,9 @@
       "pricing_model": "hidden",
       "cta_label": "Get A Free Estimate",
       "cta_url": "/contact"
+    },
+    "Entity:Service Category": {
+      "__app__": "loopar"
     },
     "Service:couple-refinish": {
       "name": "couple-refinish",
@@ -367,6 +395,13 @@
       "pricing_model": "hidden",
       "cta_label": "Get A Free Estimate",
       "cta_url": "/contact"
+    },
+    "Service Category:undefined": {
+      "title": "New Hardwood Floors",
+      "slug": "nhf",
+      "app": "couple",
+      "icon": "AudioLines",
+      "description": ""
     }
   },
   "postInstaller": {
