@@ -1,7 +1,7 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.1.108"
+    "version": "1.1.109"
   },
   "documents": {
     "Builder:Page Builder": {
@@ -17,7 +17,7 @@
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.1.108",
+      "version": "1.1.109",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
       "footer_height": "",
@@ -195,6 +195,33 @@
     "Entity:Project Category": {
       "__app__": "loopar"
     },
+    "Entity:Service Category": {
+      "__app__": "loopar"
+    },
+    "Service Category:Installation": {
+      "name": "Installation",
+      "title": "Installation",
+      "slug": "installation",
+      "app": "couple",
+      "icon": "Hammer",
+      "description": ""
+    },
+    "Service Category:Refinishing": {
+      "name": "Refinishing",
+      "title": "Refinishing",
+      "slug": "refinishing",
+      "app": "couple",
+      "icon": "Sparkles",
+      "description": ""
+    },
+    "Service Category:Repair & Restoration": {
+      "name": "Repair & Restoration",
+      "title": "Repair & Restoration",
+      "slug": "repair-restoration",
+      "app": "couple",
+      "icon": "Wrench",
+      "description": ""
+    },
     "Entity:Service": {
       "__app__": "loopar"
     },
@@ -212,9 +239,6 @@
       "pricing_model": "hidden",
       "cta_label": "Get A Free Estimate",
       "cta_url": "/contact"
-    },
-    "Entity:Service Category": {
-      "__app__": "loopar"
     },
     "Service:couple-refinish": {
       "name": "couple-refinish",
@@ -395,13 +419,6 @@
       "pricing_model": "hidden",
       "cta_label": "Get A Free Estimate",
       "cta_url": "/contact"
-    },
-    "Service Category:undefined": {
-      "title": "New Hardwood Floors",
-      "slug": "nhf",
-      "app": "couple",
-      "icon": "AudioLines",
-      "description": ""
     }
   },
   "postInstaller": {
