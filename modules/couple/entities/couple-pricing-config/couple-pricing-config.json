@@ -1,0 +1,19 @@
+{
+  "name": "Couple Pricing Config",
+  "module": "couple",
+  "default_list_view": "List",
+  "is_single": 0,
+  "is_static": 0,
+  "is_virtual": 0,
+  "include_in_installer": 0,
+  "is_child": 0,
+  "is_builder": 0,
+  "enable_history": 1,
+  "enable_comments": 0,
+  "require_login_to_comment": 0,
+  "doc_structure": "[{\"node\": \"cpc_r0\", \"element\": \"row\", \"data\": {\"layout\": \"[50, 50]\"}, \"elements\": [{\"node\": \"cpc_r0_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cpc_name\", \"element\": \"input\", \"data\": {\"name\": \"name\", \"label\": \"Rule key\", \"type\": \"VARCHAR\", \"required\": 1, \"unique\": 1, \"set_only_time\": 1, \"in_list_view\": 1, \"searchable\": 1}}]}, {\"node\": \"cpc_r0_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cpc_active\", \"element\": \"switch\", \"data\": {\"name\": \"active\", \"label\": \"Active\", \"default\": 1, \"in_list_view\": 1}}]}]}, {\"node\": \"cpc_card\", \"element\": \"card\", \"data\": {\"label\": \"Project rule\"}, \"elements\": [{\"node\": \"cpc_r1\", \"element\": \"row\", \"data\": {\"layout\": \"[33, 33, 34]\"}, \"elements\": [{\"node\": \"cpc_r1_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cpc_title\", \"element\": \"input\", \"data\": {\"name\": \"title\", \"label\": \"Title\", \"type\": \"VARCHAR\", \"required\": 1, \"in_list_view\": 1, \"searchable\": 1}}]}, {\"node\": \"cpc_r1_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cpc_mode\", \"element\": \"select\", \"data\": {\"name\": \"mode\", \"label\": \"Mode\", \"options\": \"amount:Amount (e.g. minimum job charge)\\nmultiplier:Multiplier (e.g. rush ×1.15)\\ntier:Volume tier (multiplier by total sq ft)\", \"default\": \"amount\", \"required\": 1, \"in_list_view\": 1}}]}, {\"node\": \"cpc_r1_c2\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cpc_rate\", \"element\": \"input\", \"data\": {\"name\": \"rate\", \"label\": \"Value\", \"format\": \"decimal\", \"required\": 1, \"in_list_view\": 1, \"description\": \"Dollars for amount; factor for multiplier / tier.\"}}]}]}, {\"node\": \"cpc_r2\", \"element\": \"row\", \"data\": {\"layout\": \"[33, 33, 34]\"}, \"elements\": [{\"node\": \"cpc_r2_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cpc_tier_from\", \"element\": \"input\", \"data\": {\"name\": \"tier_from_sqft\", \"label\": \"Tier from (sq ft)\", \"format\": \"decimal\", \"description\": \"Volume tiers only.\"}}]}, {\"node\": \"cpc_r2_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cpc_tier_to\", \"element\": \"input\", \"data\": {\"name\": \"tier_to_sqft\", \"label\": \"Tier to (sq ft)\", \"format\": \"decimal\", \"description\": \"Volume tiers only. Empty = no upper bound.\"}}]}, {\"node\": \"cpc_r2_c2\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cpc_order\", \"element\": \"input\", \"data\": {\"name\": \"order\", \"label\": \"Order\", \"format\": \"int\"}}]}]}]}, {\"node\": \"cpc_description\", \"element\": \"textarea\", \"data\": {\"name\": \"description\", \"label\": \"Description\"}}]",
+  "search_fields": "name,title",
+  "title_fields": "title",
+  "resources": [],
+  "__ENTITY__": "Entity"
+}

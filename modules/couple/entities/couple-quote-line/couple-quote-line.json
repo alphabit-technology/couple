@@ -1,0 +1,19 @@
+{
+  "name": "Couple Quote Line",
+  "module": "couple",
+  "default_list_view": "List",
+  "is_single": 0,
+  "is_static": 0,
+  "is_virtual": 0,
+  "include_in_installer": 0,
+  "is_child": 1,
+  "is_builder": 0,
+  "enable_history": 0,
+  "enable_comments": 0,
+  "require_login_to_comment": 0,
+  "doc_structure": "[{\"node\": \"cql_parent_id\", \"element\": \"input\", \"data\": {\"name\": \"parent_id\", \"label\": \"Parent ID\", \"type\": \"INTEGER\", \"hidden\": 1}}, {\"node\": \"cql_parent_document\", \"element\": \"input\", \"data\": {\"name\": \"parent_document\", \"label\": \"Parent Entity\", \"type\": \"VARCHAR\", \"hidden\": 1}}, {\"node\": \"cql_name\", \"element\": \"input\", \"data\": {\"name\": \"name\", \"label\": \"Name\", \"type\": \"VARCHAR\", \"required\": 1, \"unique\": 1, \"set_only_time\": 1, \"hidden\": 1}}, {\"node\": \"cql_r1\", \"element\": \"row\", \"data\": {\"layout\": \"[20, 20, 20, 20, 20]\"}, \"elements\": [{\"node\": \"cql_r1_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_category\", \"element\": \"select\", \"data\": {\"name\": \"category\", \"label\": \"Category\", \"options\": \"Couple Work Category\", \"required\": 1, \"in_list_view\": 1}}]}, {\"node\": \"cql_r1_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_work\", \"element\": \"select\", \"data\": {\"name\": \"work\", \"label\": \"Work\", \"options\": \"Couple Work\", \"required\": 1, \"in_list_view\": 1}}]}, {\"node\": \"cql_r1_c2\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_area\", \"element\": \"input\", \"data\": {\"name\": \"area\", \"label\": \"Area / room\", \"type\": \"VARCHAR\", \"in_list_view\": 1, \"description\": \"Optional label: Living room, Main staircase…\"}}]}, {\"node\": \"cql_r1_c3\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_quantity\", \"element\": \"input\", \"data\": {\"name\": \"quantity\", \"label\": \"Quantity\", \"format\": \"decimal\", \"required\": 1, \"default\": \"1\", \"in_list_view\": 1}}]}, {\"node\": \"cql_r1_c4\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_unit\", \"element\": \"select\", \"data\": {\"name\": \"unit\", \"label\": \"Unit\", \"options\": \"sqft:per sq ft\\nlinear_ft:per linear ft\\nstep:per step\\neach:each\\nhour:per hour\\nflat:flat\", \"read_only\": 1, \"in_list_view\": 1}}]}]}, {\"node\": \"cql_r2\", \"element\": \"row\", \"data\": {\"layout\": \"[25, 25, 25, 25]\"}, \"elements\": [{\"node\": \"cql_r2_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_count\", \"element\": \"input\", \"data\": {\"name\": \"count\", \"label\": \"Coats / passes\", \"format\": \"int\", \"default\": \"1\", \"in_list_view\": 1, \"description\": \"Number of coats or passes for work priced per coat. 1 otherwise.\"}}]}, {\"node\": \"cql_r2_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_rate\", \"element\": \"input\", \"data\": {\"name\": \"rate\", \"label\": \"Rate\", \"format\": \"currency\", \"read_only\": 1, \"in_list_view\": 1, \"description\": \"Copied from the work type on save.\"}}]}, {\"node\": \"cql_r2_c2\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_subtotal\", \"element\": \"input\", \"data\": {\"name\": \"subtotal\", \"label\": \"Subtotal\", \"format\": \"currency\", \"read_only\": 1, \"in_list_view\": 1}}]}, {\"node\": \"cql_r2_c3\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cql_notes\", \"element\": \"input\", \"data\": {\"name\": \"notes\", \"label\": \"Notes\", \"type\": \"VARCHAR\"}}]}]}]",
+  "search_fields": "name",
+  "title_fields": "work",
+  "resources": [],
+  "__ENTITY__": "Entity"
+}

@@ -1,12 +1,9 @@
 {
   "App": {
     "name": "couple",
-    "version": "1.1.123"
+    "version": "1.8.9"
   },
   "documents": {
-    "Builder:Page Builder": {
-      "__app__": "loopar"
-    },
     "Entity:Module": {
       "__app__": "loopar"
     },
@@ -17,12 +14,11 @@
       "type": "Web App",
       "name": "couple",
       "description": "Couple Hard Woods Floor",
-      "version": "1.1.123",
+      "version": "1.8.9",
       "autor": "alfredrz2012@gmail.com",
       "icon": "Hammer",
-      "footer_height": "",
+      "gap": "",
       "col_padding": "",
-      "col_margin": "",
       "logo": "[{\"name\":\"logo-dark-mob_lnskwk.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011783/logo-dark-mob_lnskwk.png\"}]",
       "logo_dark": "[{\"name\":\"logo-dark_frxxqg.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011777/logo-dark_frxxqg.png\"}]",
       "logo_mini": "[{\"name\":\"logo-dark-mob_lnskwk.png\",\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dgkwgmipj/image/upload/v1767011783/logo-dark-mob_lnskwk.png\"}]",
@@ -44,7 +40,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "icqrEOlHB1FDgb3",
+          "name": "v1udxT8l927j002",
           "page": "Couple Home",
           "link": "Home",
           "parent_menu": null,
@@ -56,7 +52,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "txlZcabwWI1RjGv",
+          "name": "f77oFwx0vQt1DHY",
           "page": "Couple About",
           "link": "About",
           "parent_menu": null,
@@ -68,7 +64,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "e8Fra59k571E3H7",
+          "name": "WgPHi01aIlq7Br8",
           "page": "Couple Services",
           "link": "Services",
           "parent_menu": null,
@@ -80,7 +76,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "qFVMW15o4B71Jew",
+          "name": "Rvp270F8U81mnVy",
           "page": "Couple Galery",
           "link": "Galery",
           "parent_menu": null,
@@ -92,7 +88,19 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "mLH016VSGD5RUFW",
+          "name": "m6C91OVgeYtPNcb",
+          "page": "Couple Estimate",
+          "link": "Get a Quote",
+          "parent_menu": null,
+          "document_parent": null,
+          "document_parent_name": null,
+          "deleted_at": null,
+          "router_only": 0
+        },
+        {
+          "parent_document": "App",
+          "__document_status__": "'Active'",
+          "name": "Q0l7mDOW82GJnP8",
           "page": "Couple Contact",
           "link": "Contact",
           "parent_menu": null,
@@ -104,7 +112,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "pFC6gkpSx5Vc2OX",
+          "name": "DO8DrJYR10jGA6I",
           "page": "Couple Project",
           "link": "Projects",
           "parent_menu": null,
@@ -116,7 +124,7 @@
         {
           "parent_document": "App",
           "__document_status__": "'Active'",
-          "name": "XZYqvrSd715jU2t",
+          "name": "A0XihuYNWGc0123",
           "page": "Couple Review",
           "link": "Reviews",
           "parent_menu": null,
@@ -145,8 +153,8 @@
       "icon": "Hammer",
       "in_sidebar": 1
     },
-    "Page Builder:Couple About": {
-      "__root__": "/apps/couple/modules/couple/pages/couple-about"
+    "Entity:Couple Customer": {
+      "__root__": "/apps/couple/modules/couple/entities/couple-customer"
     },
     "Entity:Menu Item": {
       "__app__": "loopar"
@@ -154,8 +162,38 @@
     "Entity:Menu Action": {
       "__app__": "loopar"
     },
+    "Entity:Resources": {
+      "__app__": "loopar"
+    },
+    "Entity:Entity": {
+      "__app__": "loopar"
+    },
+    "Entity:Couple Pricing Config": {
+      "__root__": "/apps/couple/modules/couple/entities/couple-pricing-config"
+    },
+    "Entity:Couple Quote": {
+      "__root__": "/apps/couple/modules/couple/entities/couple-quote"
+    },
+    "Entity:Couple Quote Line": {
+      "__root__": "/apps/couple/modules/couple/entities/couple-quote-line"
+    },
+    "Entity:Couple Work": {
+      "__root__": "/apps/couple/modules/couple/entities/couple-work"
+    },
+    "Entity:Couple Work Category": {
+      "__root__": "/apps/couple/modules/couple/entities/couple-work-category"
+    },
+    "Builder:Page Builder": {
+      "__app__": "loopar"
+    },
+    "Page Builder:Couple About": {
+      "__root__": "/apps/couple/modules/couple/pages/couple-about"
+    },
     "Page Builder:Couple Contact": {
       "__root__": "/apps/couple/modules/couple/pages/couple-contact"
+    },
+    "Page Builder:Couple Estimate": {
+      "__root__": "/apps/couple/modules/couple/pages/couple-estimate"
     },
     "Page Builder:Couple Galery": {
       "__root__": "/apps/couple/modules/couple/pages/couple-galery"
@@ -175,11 +213,50 @@
     "Entity:Project": {
       "__app__": "loopar"
     },
+    "Entity:Project Category": {
+      "__app__": "loopar"
+    },
+    "App:loopar": {
+      "type": "Desk App",
+      "name": "loopar",
+      "description": "Loopar",
+      "version": "7.0.27",
+      "autor": "Administrator",
+      "icon": "Infinity",
+      "gap": "",
+      "col_padding": "p-2",
+      "logo": "[{\"name\":\"logo.svg\",\"size\":17901,\"type\":\"image\",\"src\":\"/assets/public/logo.svg\"}]",
+      "logo_dark": "[{\"name\":\"logo.svg\",\"size\":17901,\"type\":\"image\",\"src\":\"/assets/public/logo.svg\"}]",
+      "logo_mini": "[]",
+      "logo_mini_dark": "[]",
+      "favicon": "[]",
+      "logo_height": "",
+      "has_footer": 0,
+      "footer": "\"\"",
+      "has_copyright": 0,
+      "copyright": "\"\"",
+      "fixed": 0,
+      "show_user_section": 0,
+      "solid": 0,
+      "opacity": "",
+      "menu_items": [],
+      "menu_actions": [],
+      "info": "Loopar Javascript Drag and Drop Framework"
+    },
+    "Project Category:Installation": {
+      "name": "Installation",
+      "title": "Installation",
+      "slug": "installation",
+      "app": "",
+      "icon": "",
+      "description": ""
+    },
     "Project:Tatianas Construction": {
       "name": "Tatianas Construction",
       "title": "Tatiana's Construction",
       "slug": "tatianas-construction",
       "app": "couple",
+      "category": "Installation",
       "published": 1,
       "featured": 0,
       "custom_url": "",
@@ -187,14 +264,11 @@
       "description": "Installation of the entire floor, three-quarters hallway and kitchen, sanding and application of polyurethane.",
       "cover_image": "[{\"name\":\"IMG_3092.JPEG\",\"size\":653189,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\"}]",
       "images": "[{\"name\":\"IMG_3092.JPEG\",\"size\":653189,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779326060/loopar/couple/couple/public/IMG_3092_l6nkan.jpg\"},{\"name\":\"IMG_3094.JPEG\",\"size\":640950,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327536/loopar/couple/couple/public/IMG_3094_xdl7cl.jpg\"},{\"name\":\"IMG_3095.JPEG\",\"size\":789325,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327536/loopar/couple/couple/public/IMG_3095_yxigl7.jpg\"},{\"name\":\"IMG_3098.JPEG\",\"size\":694760,\"type\":\"image\",\"src\":\"https://res.cloudinary.com/dxwex1ys6/image/upload/v1779327537/loopar/couple/couple/public/IMG_3098_fl5u7c.jpg\"}]",
-      "start_date": "2026-04-30",
-      "end_date": "2026-04-30",
+      "start_date": "2026-04-26",
+      "end_date": "2026-04-26",
       "client": "Tatiana Construction",
       "external_url": "",
       "tags": ""
-    },
-    "Entity:Project Category": {
-      "__app__": "loopar"
     },
     "Entity:Service": {
       "__app__": "loopar"
@@ -423,6 +497,13 @@
     }
   },
   "postInstaller": {
-    "App:couple": "link"
+    "App:couple": "link",
+    "Entity:Couple Customer": "link",
+    "Entity:Couple Pricing Config": "link",
+    "Entity:Couple Quote": "link",
+    "Entity:Couple Quote Line": "link",
+    "Entity:Couple Work": "link",
+    "Entity:Couple Work Category": "link",
+    "App:loopar": "link"
   }
 }

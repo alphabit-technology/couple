@@ -1,0 +1,19 @@
+{
+  "name": "Couple Customer",
+  "module": "couple",
+  "default_list_view": "List",
+  "is_single": 0,
+  "is_static": 0,
+  "is_virtual": 0,
+  "include_in_installer": 0,
+  "is_child": 0,
+  "is_builder": 0,
+  "enable_history": 1,
+  "enable_comments": 1,
+  "require_login_to_comment": 0,
+  "doc_structure": "[{\"node\": \"ccus_r0\", \"element\": \"row\", \"data\": {\"layout\": \"[50, 50]\"}, \"elements\": [{\"node\": \"ccus_r0_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"ccus_name\", \"element\": \"input\", \"data\": {\"name\": \"name\", \"label\": \"Name\", \"type\": \"VARCHAR\", \"required\": 1, \"unique\": 1, \"set_only_time\": 1, \"in_list_view\": 1, \"searchable\": 1, \"hidden\": 1}}]}, {\"node\": \"ccus_r0_c1\", \"element\": \"col\", \"data\": {}, \"elements\": []}]}, {\"node\": \"ccus_card_contact\", \"element\": \"card\", \"data\": {\"label\": \"Contact\"}, \"elements\": [{\"node\": \"ccus_r1\", \"element\": \"row\", \"data\": {\"layout\": \"[50, 50]\"}, \"elements\": [{\"node\": \"ccus_r1_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"ccus_full_name\", \"element\": \"input\", \"data\": {\"name\": \"full_name\", \"label\": \"Full Name\", \"type\": \"VARCHAR\", \"required\": 1, \"in_list_view\": 1, \"searchable\": 1}}, {\"node\": \"ccus_email\", \"element\": \"input\", \"data\": {\"name\": \"email\", \"label\": \"Email\", \"format\": \"email\", \"in_list_view\": 1, \"searchable\": 1}}]}, {\"node\": \"ccus_r1_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"ccus_phone\", \"element\": \"input\", \"data\": {\"name\": \"phone\", \"label\": \"Phone\", \"type\": \"VARCHAR\", \"in_list_view\": 1, \"searchable\": 1}}, {\"node\": \"ccus_company\", \"element\": \"input\", \"data\": {\"name\": \"company\", \"label\": \"Company\", \"type\": \"VARCHAR\", \"description\": \"Optional. For contractors / property managers.\"}}]}]}]}, {\"node\": \"ccus_card_address\", \"element\": \"card\", \"data\": {\"label\": \"Address\"}, \"elements\": [{\"node\": \"ccus_r2\", \"element\": \"row\", \"data\": {\"layout\": \"[50, 50]\"}, \"elements\": [{\"node\": \"ccus_r2_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"ccus_address\", \"element\": \"input\", \"data\": {\"name\": \"address\", \"label\": \"Street Address\", \"type\": \"VARCHAR\"}}, {\"node\": \"ccus_city\", \"element\": \"input\", \"data\": {\"name\": \"city\", \"label\": \"City\", \"type\": \"VARCHAR\", \"in_list_view\": 1, \"searchable\": 1}}]}, {\"node\": \"ccus_r2_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"ccus_state\", \"element\": \"input\", \"data\": {\"name\": \"state\", \"label\": \"State\", \"type\": \"VARCHAR\", \"default\": \"MA\"}}, {\"node\": \"ccus_zip\", \"element\": \"input\", \"data\": {\"name\": \"zip_code\", \"label\": \"ZIP Code\", \"type\": \"VARCHAR\"}}]}]}]}, {\"node\": \"ccus_card_profile\", \"element\": \"card\", \"data\": {\"label\": \"Profile\"}, \"elements\": [{\"node\": \"ccus_r3\", \"element\": \"row\", \"data\": {\"layout\": \"[50, 50]\"}, \"elements\": [{\"node\": \"ccus_r3_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"ccus_type\", \"element\": \"select\", \"data\": {\"name\": \"customer_type\", \"label\": \"Customer Type\", \"options\": \"Homeowner\\nContractor\\nProperty Manager\\nRealtor\\nOther\", \"default\": \"Homeowner\", \"in_list_view\": 1}}]}, {\"node\": \"ccus_r3_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"ccus_source\", \"element\": \"select\", \"data\": {\"name\": \"source\", \"label\": \"Lead Source\", \"options\": \"Website\\nReferral\\nPhone\\nGoogle\\nSocial Media\\nOther\", \"default\": \"Website\"}}]}]}, {\"node\": \"ccus_notes\", \"element\": \"textarea\", \"data\": {\"name\": \"notes\", \"label\": \"Notes\"}}]}]",
+  "search_fields": "full_name,email,phone,city",
+  "title_fields": "full_name",
+  "resources": [],
+  "__ENTITY__": "Entity"
+}

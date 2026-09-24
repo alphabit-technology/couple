@@ -1,0 +1,19 @@
+{
+  "name": "Couple Work Category",
+  "module": "couple",
+  "default_list_view": "List",
+  "is_single": 0,
+  "is_static": 0,
+  "is_virtual": 0,
+  "include_in_installer": 0,
+  "is_child": 0,
+  "is_builder": 0,
+  "enable_history": 1,
+  "enable_comments": 0,
+  "require_login_to_comment": 0,
+  "doc_structure": "[{\"node\": \"cwc_r0\", \"element\": \"row\", \"data\": {\"layout\": \"[50, 50]\"}, \"elements\": [{\"node\": \"cwc_r0_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cwc_name\", \"element\": \"input\", \"data\": {\"name\": \"name\", \"label\": \"Name\", \"type\": \"VARCHAR\", \"required\": 1, \"unique\": 1, \"set_only_time\": 1, \"in_list_view\": 1, \"searchable\": 1}}]}, {\"node\": \"cwc_r0_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cwc_active\", \"element\": \"switch\", \"data\": {\"name\": \"active\", \"label\": \"Active\", \"default\": 1, \"in_list_view\": 1}}]}]}, {\"node\": \"cwc_r1\", \"element\": \"row\", \"data\": {\"layout\": \"[33, 33, 34]\"}, \"elements\": [{\"node\": \"cwc_r1_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cwc_title\", \"element\": \"input\", \"data\": {\"name\": \"title\", \"label\": \"Title\", \"type\": \"VARCHAR\", \"required\": 1, \"in_list_view\": 1, \"searchable\": 1}}]}, {\"node\": \"cwc_r1_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cwc_order\", \"element\": \"input\", \"data\": {\"name\": \"order\", \"label\": \"Order\", \"format\": \"int\", \"in_list_view\": 1}}]}, {\"node\": \"cwc_r1_c2\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cwc_icon\", \"element\": \"icon_input\", \"data\": {\"name\": \"icon\", \"label\": \"Icon\"}}]}]}, {\"node\": \"cwc_r2\", \"element\": \"row\", \"data\": {\"layout\": \"[50, 50]\"}, \"elements\": [{\"node\": \"cwc_r2_c0\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cwc_show_on_web\", \"element\": \"switch\", \"data\": {\"name\": \"show_on_web\", \"label\": \"Show on website calculator\", \"default\": 1}}]}, {\"node\": \"cwc_r2_c1\", \"element\": \"col\", \"data\": {}, \"elements\": [{\"node\": \"cwc_area_label\", \"element\": \"input\", \"data\": {\"name\": \"area_label\", \"label\": \"Area label\", \"type\": \"VARCHAR\", \"default\": \"Area / room\", \"description\": \"Label of the optional text the customer types next to the quantity (e.g. 'Area / room', 'Staircase').\"}}]}]}, {\"node\": \"cwc_description\", \"element\": \"textarea\", \"data\": {\"name\": \"description\", \"label\": \"Description\"}}]",
+  "search_fields": "name,title",
+  "title_fields": "title",
+  "resources": [],
+  "__ENTITY__": "Entity"
+}
